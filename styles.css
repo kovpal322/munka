@@ -1,0 +1,124 @@
+/* Reset alap stílusok */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Alap stílusok */
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(hatter.jpg);
+    background-size:cover;
+    background-repeat: no-repeat;
+    color: #333;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 20px;
+    text-align: center;
+    color:rgba(191, 38, 38, 0.671);
+    font-family: Fairy Strange;
+    font-size: 30px;
+    text-shadow: 2px 2px rgba(55, 0, 255, 0.656);
+}
+
+.header-content {
+    max-width: auto;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 80px;
+    text-shadow: 2px 2px blue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav ul {
+    display: flexbox;
+    justify-content: space-between;
+    list-style: none;
+    margin-top: 20px;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    padding: 20px;
+}
+
+.product {
+
+    background-color: #ffffff54;
+    border: 1px solid #dddddd36;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+}
+
+.product img {
+    max-width: 100%;
+}
+
+.product h2 {
+    font-size: 24px;
+    margin-top: 10px;
+}
+
+.product p {
+    margin: 10px 0;
+}
+
+.product .price {
+    font-weight: bold;
+    color: #333;
+}
+
+.product .add-to-cart {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+footer {
+    background-color: #3333331f;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+}
+.search-container{
+    font-size: small;
+}
+#kereso{
+    width: 250px;
+    border-radius: 24px;
+    padding: 10px;
+    height: 35px;
+    font-size: smaller;
+}

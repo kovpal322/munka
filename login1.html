@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bej.css">
+    <title>Bejelentkezés</title>
+</head>
+<body>
+    <div class="log-in">
+    <div class="log-in__wrapper">
+      <div class="log-in__header">
+        <h1><span>Log in</span></h1>
+      </div>
+      <form class="log-in__form">
+        <label class="log-in__form-label" for="username">Username</label>
+        <input class="log-in__form-input" id="username" type="text" placeholder="username" value="Your username"/>
+        <label class="log-in__form-label" for="password">password</label>
+        <input class="log-in__form-input" id="password" type="password" placeholder="password"/>
+        <button class="log-in__form-submit" id="loginButton">Log-in</button>
+      </form>
+      <div class="log-in__action"><a href="javascript:;">Forgot password?</a><a href="javascript:;">Sign up</a></div>
+    </div>
+  </div>
+  <script>
+    document.getElementById("loginButton").addEventListener("click", function(event) {
+                    event.preventDefault();
+                    window.location.href = "index.html";
+    });
+  </script>
+</body>
+</html>
